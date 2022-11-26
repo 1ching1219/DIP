@@ -1,0 +1,18 @@
+python version: python3.5.2
+packages: cv2, tkinter, PIL, imutils, matplotlib.pyplot
+
+套件介紹：
+PIL: Image.fromarray()矩陣轉換圖片, Image.shape()獲得圖片, ImageTk(), ImageEnhance()調整圖片對比跟亮度
+imutils: resize()調整圖片大小
+matplotlib.pyplot: imshow(),show()顯示圖片
+
+功能：
+Open File:選擇圖片
+Save as .jpg:儲存圖片為jpg檔
+Save as .tif:儲存圖片為tif檔
+Brightness:調整toggler可以改變圖片亮度(這裡的亮度調整是用PIL套件裡的功能製作的)
+Contrast:調整toggler可以改變圖片對比(這裡的對比是用PIL套件裡的功能製作的)
+Self Define區域:將想要調整的參數分別輸入a, b的entry後可以點選想要的調整函式，分別是linear, exp, log.
+Rotate:將想要旋轉的角度輸入entry後按下Rotate it按鈕後即可旋轉
+Gray-level:將想要顯示的gray-level輸入entry後按下Show gray-level adjust就會顯示出灰階值介於輸入值~255間的像素
+
