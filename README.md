@@ -133,7 +133,7 @@ The **final project** extends the previous image processing functionalities by i
 
 - **Processing Flow**:
   1. **Image Preprocessing**: The uploaded image is resized and normalized.
-  2. **Object Classification**: The pre-trained CNN model predicts the objects in the image.
+  2. **Object Classification**: The CNN model predicts the objects in the image.
   3. **Output**: The system returns the predicted object label and confidence score.
 
 ### 📦 Libraries Used
