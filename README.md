@@ -115,14 +115,40 @@ This is a **Python-based image processing system on Linux**, designed to simulat
 
 ---
 
+## 🚀 Final Project — Object Recognition with CNN
+
+### ✨ Overview
+
+The **final project** extends the previous image processing functionalities by integrating a **Convolutional Neural Network (CNN)** for object recognition. After uploading an image, the system uses a trained model to classify and identify objects within the image.
+
+- **Features**:  
+  - **Image Upload**: Users can upload an image for processing.
+  - **Object Recognition**: The system detects and classifies objects in the image.
+  - **PyTorch Implementation**: The model is built using PyTorch.
+
+### 🧑‍💻 Model Details
+
+- **CNN Architecture**:  
+  The CNN is trained on a dataset of objects and uses convolutional layers for feature extraction, followed by fully connected layers for classification.
+
+- **Processing Flow**:
+  1. **Image Preprocessing**: The uploaded image is resized and normalized.
+  2. **Object Classification**: The pre-trained CNN model predicts the objects in the image.
+  3. **Output**: The system returns the predicted object label and confidence score.
+
+### 📦 Libraries Used
+
+- **PyTorch**: For the CNN model and object recognition.
+- Other libraries: `PIL`, `opencv-python`, `numpy`, `matplotlib`, `scikit-image`, `imutils`.
+
 ## 📎 Requirements
 
 - Python 3.x
-- `PIL`, `opencv-python`, `numpy`, `matplotlib`, `scikit-image`, `imutils`
+- `PIL`, `opencv-python`, `numpy`, `matplotlib`, `scikit-image`, `imutils`, `torch`, `torchvision`
 
 Install via pip:
 
 ```bash
-pip install pillow opencv-python numpy matplotlib scikit-image imutils
+pip install pillow opencv-python numpy matplotlib scikit-image imutils torch torchvision
 ```
 Copyright © 2023 by 1ching. All rights reserved.
