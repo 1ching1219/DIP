@@ -124,5 +124,5 @@ Install via pip:
 
 ```bash
 pip install pillow opencv-python numpy matplotlib scikit-image imutils
-
+```
 Copyright © 2023 by 1ching. All rights reserved.
